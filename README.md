@@ -1,0 +1,1 @@
+Set up a basic Node.js application with Express to render and serve an OpenAPI 3.0 specification. Created an openapi.yaml file to describe the API, wrote an index.js file that serves a simple HTML page with API documentation and includes a simulated /pets route to return JSON data. Thank you!
