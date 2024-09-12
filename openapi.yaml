@@ -1,0 +1,27 @@
+openapi: 3.0.1
+info:
+  title: Sample API
+  description: A sample API to demonstrate OpenAPI 3.0
+  version: 1.0.0
+servers:
+  - url: https://api.example.com/v1
+paths:
+  /pets:
+    get:
+      summary: Lists all dogs
+      responses:
+        '200':
+          description: A list of dogs
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  type: object
+                  properties:
+                    id:
+                      type: integer
+                      example: 1
+                    name:
+                      type: string
+                      example: "Pitbull"
